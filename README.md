@@ -4,12 +4,12 @@ This project showcases an end-to-end ETL (Extract, Transform, Load) pipeline tha
 ## Overview
 This simple ETL pipeline does the following:
 ### 1. Extract: 
-[Link to extract.py](https://github.com/Oreoluwa100/spotify-API_python_postgres/blob/main/extract.py)
+[Link to extract.py](https://github.com/Oreoluwa100/spotify_airflow_postgres/blob/main/extract.py)
 
 This extracts data from Spotify's Web API for a specific artist (e.g., "Tems"). It involves retrieving an access token, searching for the artist ID, collecting artist details, album information, album tracks, and top tracks.
 
 ### 2. Transform and Load:
-[Link to transform_and_load.py](https://github.com/Oreoluwa100/spotify-API_python_postgres/blob/main/transform_and_load.py)
+[Link to transform_and_load.py](https://github.com/Oreoluwa100/spotify_airflow_postgres/blob/main/transform_and_load.py)
 
 This includes transformations such as handling type conversions (e.g., transforming release dates into datetime objects and converting track durations from milliseconds to minutes) and structure adjustments. The data is then loaded into a PostgreSQL database by inserting records into relevant tables using Python’s psycopg2 library.
 
