@@ -26,7 +26,7 @@ PostgreSQL: To store the extracted data.
 
 Apache Airflow: To orchestrate the ETL pipeline.
 
-Python: For scripting the ETL process.
+Python: For scripting the ETL process
 
 ### Libraries:
 requests: To interact with the Spotify API.
