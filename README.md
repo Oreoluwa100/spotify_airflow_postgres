@@ -20,7 +20,7 @@ The ETL process is orchestrated using Apache Airflow, which schedules and automa
 
 ### Technologies Used:
 
-Spotify API: To fetch artist, album, track and top track data.
+Spotify API: To fetch artist, album, track and track data.
 
 PostgreSQL: To store the extracted data.
 
